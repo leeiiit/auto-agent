@@ -1,0 +1,62 @@
+{
+  "project": "Example Project",
+  "description": "An example project to demonstrate the harness structure",
+  "features": [
+    {
+      "id": "feat-001",
+      "category": "functional",
+      "description": "User can create a new chat conversation",
+      "steps": [
+        "Navigate to main interface",
+        "Click the 'New Chat' button",
+        "Verify a new conversation is created",
+        "Check that chat area shows welcome state",
+        "Verify conversation appears in sidebar"
+      ],
+      "priority": "high",
+      "passes": false
+    },
+    {
+      "id": "feat-002",
+      "category": "functional",
+      "description": "User can send a message and receive a response",
+      "steps": [
+        "Type a message in the input field",
+        "Press enter or click send button",
+        "Verify message appears in chat",
+        "Wait for AI response",
+        "Verify response appears in chat"
+      ],
+      "priority": "high",
+      "passes": false
+    },
+    {
+      "id": "feat-003",
+      "category": "ui",
+      "description": "Theme switching between light and dark mode",
+      "steps": [
+        "Find theme toggle in UI",
+        "Click to switch to dark mode",
+        "Verify colors change appropriately",
+        "Click to switch back to light mode",
+        "Verify colors revert correctly"
+      ],
+      "priority": "medium",
+      "passes": false
+    },
+    {
+      "id": "feat-004",
+      "category": "functional",
+      "description": "User can delete a conversation",
+      "steps": [
+        "Hover over conversation in sidebar",
+        "Click delete icon",
+        "Confirm deletion in modal",
+        "Verify conversation removed from sidebar"
+      ],
+      "priority": "medium",
+      "passes": false
+    }
+  ],
+  "created": "2026-04-24T00:00:00Z"
+}
